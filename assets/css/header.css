@@ -1,0 +1,95 @@
+/* Estilo do cabeçalho */
+.cabecalho {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+/* retirando as * default dos nav items */
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu__link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+/* configurações do banner */
+
+/* foi preciso colocar o banner com o position relative, 
+    porque o título não estava centralizando pegando a img do banner
+    e sim alinhando tomando a página como referência, por isso deixamos
+    position relative na section do banner e no título position absolute
+    com relação à section.
+    Pois colocando o banner com a position relative, estamos dizendo a seus 
+    elementos filho que o parâmetro position: absolute do banner-titulo estava sendo absoluto em relação a página.
+     Sendo assim, usamos o parâmetro position: relative na classe pai, banner, para que seus filhos sejam posicionados de maneira relativa a ele. */
+.banner {
+    position: relative;
+}
+
+.banner__img {
+    /* short hand p/ background-image, background-repeat, background-size e background-position*/
+    background: url('../img/banner\ xilogravuras.png') no-repeat center / cover;
+    /* tirando o tamanho do cabeçalho: */
+    height: calc(100vh - 72px);
+    width: 100vw;
+}
+
+.banner__titulo {
+    font-family: Pacifico, cursive;
+    color: #110704;       
+    font-size: 4.5rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px #3d1c0f;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* estilizando o sobre */
+
+.sobre {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__titulo {
+    color: #3d1c0f;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+.sobre__descricao {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+
+

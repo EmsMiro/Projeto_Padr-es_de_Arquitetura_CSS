@@ -1,0 +1,11 @@
+@import url('./reset.css');
+@import url('./normalize.css');
+@import url('./header.css');
+@import url('./section-receitas.css');
+@import url('./section-quemSomos.css');
+@import url('./footer.css');
+@import url('./media-query.css');
+
+html {
+    scroll-behavior: smooth;
+}

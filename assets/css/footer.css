@@ -1,0 +1,19 @@
+.rodape {
+    background: #CFB597;
+    color: #fdfdfd;
+    padding: 1.5625rem 5rem;
+    text-align: right;
+    /* text-transform: lowercase; */
+}
+
+.footer-p{
+    color: #000000;
+}
+span:hover {
+    color: #d40e0e;
+    }
+
+.link__footer{
+    text-decoration: none;
+    color:#000000;
+}

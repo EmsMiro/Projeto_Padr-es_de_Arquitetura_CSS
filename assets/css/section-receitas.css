@@ -1,0 +1,56 @@
+.receitas {
+    background:#cfb597;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.receita {
+    background:#fdfdfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    /* tirando o espaçamento do lado direito que o elemento pai adicionava */
+    width: calc(25% - 5rem);
+    
+}
+
+.receita__imagem {
+    height: 180px;
+    border-radius: 10px;     
+}
+
+.receita__conteudo{
+    padding: 1rem;
+}
+
+.receita__titulo {
+    font-size: 1.4375rem;
+}
+
+.receita__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.receita__botao {
+    background:#3d1c0f;
+    border: none;
+    border-radius: 5px;
+    color:#fdfdfd;
+    padding:1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.receita__botao:hover{
+    background: #620404;
+    cursor: pointer;    
+}
+
+.link__receita {
+    text-decoration: none;
+    color: #fdfdfd;
+}

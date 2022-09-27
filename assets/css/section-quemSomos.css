@@ -1,0 +1,85 @@
+.restaurantes {
+    padding: 5rem;
+    text-align: center;
+}
+
+.restaurantes__titulo {
+    color: #582916;    
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+.restaurantes__descricao {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.logotipos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__imagem {
+    background: #b8820ca2;
+    /* consertando a imagem */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.logo__imagem--bode {
+    background-image: url("../img/bodedono.jpg");
+}
+
+.logo__imagem--parraxaxa {
+    background-image: url("../img/parraxaxa-og.png");
+}
+
+.logo__imagem--arretado {
+    background-image: url("../img/arretado.jpg");
+}
+
+.logo__imagem:hover{
+    background-image: url('../img/hover.png');    
+        
+}
+
+.logo__nome {
+    color: #3d1c0f;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__funcao {
+    color: #595959;
+    font-size: 1.30rem;
+    text-transform: lowercase;       
+}
+
+.logo__link {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #3d1c0f;
+    background: #b8820c65;
+    border-radius: 5px;    
+}
+
+.logo__link:hover{
+   background-color: #c4ac5d;
+}
+
